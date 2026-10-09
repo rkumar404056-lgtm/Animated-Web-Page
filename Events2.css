@@ -1,0 +1,75 @@
+body {
+    background-color: #181717;
+}
+
+input {
+    display: block;
+    background-color: #222;
+    border: 2px solid #333333;
+    color: white;
+    display: flex;
+    
+}
+
+.submit {
+    display: flex;
+    margin-left: 55px;
+}
+
+.new {
+    margin: 50px;
+    width: 100%;
+    height: 900px;
+}
+
+.card {
+    border: 2px solid #555;
+    display: inline-block;
+    margin-top: 10px;
+    width: 20%;
+    height: 180px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 3px 3px 20px lightblue;
+}
+
+.profile {
+    border: 2px solid #555;
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 20%;
+    height: 80px;
+    border-radius: 50%;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h3, h5, h6 {
+    margin-left: 110px;
+    color: aliceblue; 
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+h6 {
+   margin-top: -20px;
+}
+
+h5 {
+   margin-bottom: 20px;
+}
+
+
+
+
